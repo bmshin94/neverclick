@@ -95,7 +95,7 @@ The target is placed in the center of the bounding box by default but you can mo
 
 ### Neverclick prioritizes letters in the center of the keyboard.
 
-However, you can customize this if you have a different keyboard layout.
+However, the Key Priority Map is interactive and fully customizable.
 
 ![Keyboard map showing Neverclick's hint-letter priority, weighted toward the center keys](https://github.com/user-attachments/assets/171e931e-2d9f-407b-94ab-9ba88a40fa32)
 
@@ -105,7 +105,12 @@ Set up your hotkeys in a GUI.
 
 ![Neverclick's configuration window for setting up hotkeys in a graphical interface](https://github.com/user-attachments/assets/1643b4db-1ff0-417a-b111-e2217609a28d)
 
-Configure your keybinds visually on an interactive virtual keyboard.
+A **hotkey** triggers a Tool or an Action.
+
+- **Neverclick Tools** are interactive overlays (e.g. the Left Click Tool, the Sticky Hints Tool).
+- **Neverclick Actions** are one-off commands that execute immediately (e.g. Scroll, Move Window).
+
+**Keybinds** are what you can do while a Tool is active. Configure them visually on an interactive virtual keyboard.
 
 ![Neverclick's interactive virtual keyboard for assigning keybinds visually](https://github.com/user-attachments/assets/32ebf1d6-462d-4abb-9024-f662912e4f18)
 
@@ -149,20 +154,20 @@ Press `;` when the hints are up to switch into grid mode.
 
 #### 2. Run the installer and follow the instructions.
 
-![The Neverclick tray icon, which opens the configuration window when clicked](https://github.com/user-attachments/assets/9a4b6992-48b6-44b5-a7a1-70c880409afa)
+![The Neverclick installer running on Windows](https://github.com/user-attachments/assets/9a4b6992-48b6-44b5-a7a1-70c880409afa)
 
 #### 3. Verify that it works by pressing `Ctrl` + `Enter` to activate the Left Click Tool.
 
 #### 4. Open the configuration window from the tray icon.
 
-![The Neverclick installer running on Windows](https://github.com/user-attachments/assets/7f5c0935-20e8-4066-8417-6ed2794396c6)
+![The Neverclick tray icon, which opens the configuration window when clicked](https://github.com/user-attachments/assets/7f5c0935-20e8-4066-8417-6ed2794396c6)
 
-# Coming soon...
+# And there's more...
 
-- Scrolling
-- Window switching via hints
-- Moving windows between virtual desktops
-- Much more...
+- Scroll without a mouse.
+- Move windows between monitors and virtual desktops.
+- Save hints for repeat clicking with the Sticky Hints Tool.
+- Much more coming soon...
 
 https://github.com/user-attachments/assets/698ead2e-8dca-4443-a61b-1352a9e0c492
 
@@ -180,7 +185,7 @@ Yes. It's free to download and use. There are no accounts, subscriptions, or tri
 
 ### Is it Windows only?
 
-For now, yes. Linux and macOS aren't supported yet.
+For now, yes. Linux, macOS, and Windows ARM (Snapdragon) aren't supported yet.
 
 ### Does Neverclick have multimonitor support?
 
@@ -192,7 +197,11 @@ Yes, and yes.
 
 ### Does Neverclick work with non-English languages?
 
-Yes. By default the hint labels use your keyboard's language but you can change it in the settings. The settings UI itself is English-only for now.
+Yes. Hints use your keyboard's language. The settings UI itself is English-only for now.
+
+### Does it support Dvorak?
+
+Yes. Dvorak, Colemak, and other alternative keyboard layouts are natively supported, as long as the layout is set in Windows.
 
 ### Is there a portable version?
 
